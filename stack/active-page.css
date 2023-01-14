@@ -54,27 +54,52 @@ p.terminos {
 .cart {
   width: 20px;
 }
+
+/* primera Barra Rosa*/
+nav.above-contact {
+  margin-top: 30px;
+}
+h1.subtitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin: 45px 0px 15px 0px;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
   letter-spacing: 1px;
 }
-/* primera Barra Rosa*/
-nav.above-contact {
-  margin-top: 30px;
-}
-li.trama-words {
-  margin: 40px 30px 10px 30px;
+.trama-words {
+  font-size: 22px;
   font-weight: 600;
-  font-size: 20px;
+  margin: 10px 30px 10px 40px;
 }
 .wrap {
   position: relative;
   display: flex;
+  flex-direction: column;
 }
 .big-photo {
   width: 100%;
   height: 320px;
   object-fit: cover;
+}
+div.both-components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.trama-image {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.contain-three {
+  display: flex;
+  justify-content: center;
 }
