@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+ul.first-box {
+  display: flex;
+}
+.background-nav {
+  background: rgba(240, 178, 208, 0.79);
+  height: 50px;
+  justify-content: space-around;
+}
+ul.background-one {
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+li.promo {
+  width: 330px;
+}
+i.one {
+  padding-left: 10px;
+}
+img.two {
+  width: 32px;
+}
+img.three {
+  width: 32px;
+}
+h1.four {
+  color: white;
+  padding-left: 20px;
+}
+
+.promo-medium {
+  display: flex;
+}
+.promo-margin {
+  margin-left: 30px;
+  line-height: 1;
+}
+.cart {
+  width: 20px;
+}
