@@ -9,10 +9,12 @@
 ul.first-box {
   display: flex;
 }
+/* primera Barra Rosa*/
 .background-nav {
   background: rgba(240, 178, 208, 0.79);
   height: 50px;
   justify-content: space-around;
+  color: white;
 }
 ul.background-one {
   padding-left: 20px;
@@ -23,7 +25,6 @@ ul.background-one {
 
 li {
   list-style: none;
-  color: white;
 }
 li.promo {
   width: 330px;
@@ -38,10 +39,11 @@ img.three {
   width: 32px;
 }
 h1.four {
-  color: white;
   padding-left: 20px;
 }
-
+p.terminos {
+  letter-spacing: 1px;
+}
 .promo-medium {
   display: flex;
 }
@@ -51,4 +53,19 @@ h1.four {
 }
 .cart {
   width: 20px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+/* primera Barra Rosa*/
+nav.above-contact {
+  margin-top: 30px;
+}
+li.trama-words {
+  margin: 40px 30px 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
 }
